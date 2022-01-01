@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#72FFFFFF"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        tools:ignore="RtlHardcoded,UselessParent">
+
+        <TextView
+            android:id="@+id/recieveMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is recieve message"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
